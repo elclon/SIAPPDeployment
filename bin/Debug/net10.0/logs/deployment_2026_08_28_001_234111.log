@@ -1,0 +1,14 @@
+=== SIAPP DEPLOYMENT LOG ===
+Versión:   2026.08.28.001
+Fecha:     2026-08-28 23:41:11
+Duración:  00:03:23.8222369
+Resultado: FALLIDO
+Etapa:     Subiendo al servidor
+Error:     Error en la transferencia SFTP: Bad message
+
+--- PASOS EJECUTADOS ---
+[1] Compilando Frontend: OK (01:54)
+[2] Publicando Backend: OK (00:49)
+[3] Preparando archivos: OK (00:33)
+[4] Subiendo al servidor: FALLÓ (00:00)
+    Error: Error en la transferencia SFTP: Bad message

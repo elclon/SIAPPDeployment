@@ -1,0 +1,14 @@
+=== SIAPP DEPLOYMENT LOG ===
+Versión:   2026.09.13.003
+Fecha:     2026-09-13 21:55:51
+Duración:  00:02:14.2045110
+Resultado: FALLIDO
+Etapa:     Subiendo al servidor
+Error:     Error en la transferencia SFTP/SCP: Socket read operation has timed out after 30000 milliseconds.
+
+--- PASOS EJECUTADOS ---
+[1] Compilando Frontend: OK (01:15)
+[2] Publicando Backend: OK (00:05)
+[3] Preparando archivos: OK (00:21)
+[4] Subiendo al servidor: FALLÓ (00:00)
+    Error: Error en la transferencia SFTP/SCP: Socket read operation has timed out after 30000 milliseconds.

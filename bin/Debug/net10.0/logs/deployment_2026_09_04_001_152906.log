@@ -1,0 +1,95 @@
+=== SIAPP DEPLOYMENT LOG ===
+Versión:   2026.09.04.001
+Fecha:     2026-09-04 15:29:06
+Duración:  00:06:13.9275939
+Resultado: FALLIDO
+Etapa:     Activando nueva versión
+Error:     Error al copiar archivos de Backend a C:\Webs\api: Copy-Item : El proceso no puede obtener acceso al archivo 'C:\Webs\api\es\Microsoft.Data.SqlClient.resources.dll' 
+porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Data.SqlClient.resources.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 
+'C:\Webs\api\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll' porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Win32.SystemEvents.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 
+'C:\Webs\api\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll' porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Data.SqlClient.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 
+'C:\Webs\api\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll' porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Data.SqlClient.SNI.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 'C:\Webs\api\AWSSDK.Core.dll' porque est� siendo utilizado 
+en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+
+
+--- PASOS EJECUTADOS ---
+[1] Compilando Frontend: OK (02:56)
+[2] Publicando Backend: OK (01:16)
+[3] Preparando archivos: OK (00:41)
+[4] Subiendo al servidor: OK (00:15)
+[5] Activando nueva versión: FALLÓ (00:00)
+    Error: Error al copiar archivos de Backend a C:\Webs\api: Copy-Item : El proceso no puede obtener acceso al archivo 'C:\Webs\api\es\Microsoft.Data.SqlClient.resources.dll' 
+porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Data.SqlClient.resources.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 
+'C:\Webs\api\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll' porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Win32.SystemEvents.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 
+'C:\Webs\api\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll' porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Data.SqlClient.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 
+'C:\Webs\api\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll' porque est� siendo utilizado en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.Data.SqlClient.SNI.dll:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : El proceso no puede obtener acceso al archivo 'C:\Webs\api\AWSSDK.Core.dll' porque est� siendo utilizado 
+en otro proceso.
+En l�nea: 1 Car�cter: 1
++ Copy-Item -Path 'C:\SIAPP\releases\2026.09.04.001\backend\*' -Destina ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+

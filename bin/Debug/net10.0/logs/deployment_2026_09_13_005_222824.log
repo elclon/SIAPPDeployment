@@ -1,0 +1,14 @@
+=== SIAPP DEPLOYMENT LOG ===
+Versión:   2026.09.13.005
+Fecha:     2026-09-13 22:28:24
+Duración:  00:02:29.5023738
+Resultado: FALLIDO
+Etapa:     Subiendo al servidor
+Error:     Error en la transferencia SFTP/SCP: Session operation has timed out
+
+--- PASOS EJECUTADOS ---
+[1] Compilando Frontend: OK (01:20)
+[2] Publicando Backend: OK (00:06)
+[3] Preparando archivos: OK (00:19)
+[4] Subiendo al servidor: FALLÓ (00:00)
+    Error: Error en la transferencia SFTP/SCP: Session operation has timed out
