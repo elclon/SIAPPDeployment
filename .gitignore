@@ -1,0 +1,18 @@
+## Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+
+## Logs
+*.log
+
+## OS Files
+.DS_Store
+Thumbs.db
